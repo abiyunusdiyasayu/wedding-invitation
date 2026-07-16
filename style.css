@@ -263,15 +263,16 @@ span{
     color:#666;
 }
 
-
-
-
-
-
-
 .footer{
-    padding:20px 10px;
+    padding:25px;
     text-align:center;
     background:var(--primary);
-    color:var(--white);
+}
+
+footer p{
+    font-size:11px;
+    font-weight:300;
+    color:rgba(255,255,255,.7);
+    letter-spacing:2px;
+    text-transform:uppercase;
 }
