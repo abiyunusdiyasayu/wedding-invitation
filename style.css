@@ -235,3 +235,22 @@ span{
     border-radius:50px;
 }
 
+#story{
+    padding:100px 25px;
+    text-align:center;
+}
+
+.story-item{
+    max-width:600px;
+    margin:40px auto;
+    padding:30px;
+    background:var(--white);
+    border-left:5px solid var(--gold);
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    text-align:left;
+}
+
+.story-item h3{
+    color:var(--primary);
+    margin-bottom:10px;
+}
