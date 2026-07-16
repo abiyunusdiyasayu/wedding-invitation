@@ -265,7 +265,7 @@ span{
 
 .footer{
     padding:15px;
-    text-align:justify;
-   font-size:10px; 
+    text-align:center;justify-content:center;
+    font-size:10px; 
     background:var(--primary);
 }
