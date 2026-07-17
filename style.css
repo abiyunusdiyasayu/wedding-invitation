@@ -263,9 +263,14 @@ span{
     color:#666;
 }
 
-.footer{
-    padding:15px;
-    text-align:center;justify-content:center;
-    font-size:10px; 
-    background:var(--primary);
+footer small{
+    display:block;
+    margin-top:8px;
+    font-size:10px;
+    color:rgba(255,255,255,.6);
+}
+
+#gift{
+    padding:100px 25px;
+    text-align:center;
 }

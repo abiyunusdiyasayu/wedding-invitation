@@ -59,3 +59,15 @@ setInterval(() => {
     document.querySelector("#seconds").innerHTML = seconds;
 
 },1000);
+
+function copyRekening(){
+
+    const rekening =
+    document.querySelector("#rekening")
+    .innerText;
+
+    navigator.clipboard.writeText(rekening);
+
+    alert("Nomor rekening berhasil disalin!");
+}
+
