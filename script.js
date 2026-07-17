@@ -60,14 +60,21 @@ setInterval(() => {
 
 },1000);
 
-function copyRekening(){
+function copyText(text,button){
 
-    const rekening =
-    document.querySelector("#rekening")
-    .innerText;
+    navigator.clipboard.writeText(text);
 
-    navigator.clipboard.writeText(rekening);
+    button.innerHTML =
+    "✓ Berhasil Disalin";
 
-    alert("Nomor rekening berhasil disalin!");
+    setTimeout(()=>{
+
+        button.innerHTML =
+        "📋 Tap untuk Salin Nomor Rekening";
+
+    },2000);
+
 }
+
+
 

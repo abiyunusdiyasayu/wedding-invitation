@@ -244,33 +244,66 @@
     <h2>Wedding Gift</h2>
 
     <p class="gift-text">
-        Kehadiran dan doa restu Anda merupakan hadiah terindah bagi kami.
-        Namun, jika ingin memberikan tanda kasih, dapat melalui:
+        Kehadiran dan doa restu Bapak/Ibu/Saudara/i merupakan hadiah
+        terindah bagi kami. Namun, apabila ingin memberikan tanda kasih,
+        dapat melalui rekening berikut.
     </p>
 
-    <div class="gift-card">
+    <!-- PIHAK MEMPELAI PRIA -->
+    <div class="gift-group">
 
-        <h3>Bank BCA</h3>
+        <h3>Pihak Mempelai Pria</h3>
 
-        <p id="rekening">
-            1234567890
-        </p>
+        <div class="gift-card">
 
-        <p>
-            a.n. Abi Yunus
-        </p>
+            <h4>Bank BCA</h4>
 
-        <button onclick="copyRekening()">
-            Salin Nomor Rekening
-        </button>
+            <p class="rekening">
+                1234567890
+            </p>
+
+            <p>
+                a.n. Abi Yunus
+            </p>
+
+            <button
+    class="copy-button"
+    onclick="copyText('1234567890',this)">
+
+    📋 Tap untuk Salin Nomor Rekening
+
+            </button>
+
+        </div>
 
     </div>
 
-    <div class="gift-card">
+    <!-- PIHAK MEMPELAI WANITA -->
+    <div class="gift-group">
 
-        <h3>QRIS</h3>
+        <h3>Pihak Mempelai Wanita</h3>
 
-        <img src="assets/images/qris.png" alt="QRIS">
+        <div class="gift-card">
+
+            <h4>Bank Mandiri</h4>
+
+            <p class="rekening">
+                0987654321
+            </p>
+
+            <p>
+                a.n. Diyas Ayu Niswatin Khasanah
+            </p>
+
+            <button
+    class="copy-button"
+    onclick="copyText('1234567890',this)">
+
+    📋 Tap untuk Salin Nomor Rekening
+
+            </button> 
+
+        </div>
 
     </div>
 
